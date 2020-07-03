@@ -5,25 +5,23 @@ import ImageSearchForm from '../Components/ImageSearchForm/ImageSearchForm';
 import FaceDetect from '../Components/FaceDetect/FaceDetect';
 import './App.css';
 
-
-const app = new Clarifai.App ({
+const app = new Clarifai.App({
   apiKey: keys.clarifaiKeys.apiKey,
-})
+});
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      input: "",
-      imageUrl: "",
-      box: {}
+      input: '',
+      imageUrl: '',
+      box: {},
     };
   }
 
   calculateFaceLocation = (data) => {
-    const clarifaiFace = 
-      data.outputs[0].data.regions[0].region_info.bounding_box;
-    const image = document.getElementById("inputimage");
+    const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
+    const image = document.getElementById('inputimage');
     const width = Number(image.width);
     const height = Number(image.height);
     return {
@@ -35,7 +33,7 @@ class App extends Component {
   };
 
   displayFaceBox = (box) => {
-    this.setState({ box: box });
+    this.setState({ box });
   };
 
   onInputChange = (event) => {
@@ -46,16 +44,14 @@ class App extends Component {
     this.setState({ imageUrl: this.state.input });
     app.models
       .predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
-      .then((response) =>
-        this.displayFaceBox(this.calculateFaceLocation(response))
-      )
+      .then((response) => this.displayFaceBox(this.calculateFaceLocation(response)))
       .catch((err) => console.log(err));
   };
 
   render() {
-  return (
+    return (
     <div className="App">
-      <ImageSearchForm 
+      <ImageSearchForm
         onInputChange={this.onInputChange}
         onSubmit={this.onSubmit}
       />

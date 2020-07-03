@@ -1,14 +1,13 @@
 import React from 'react';
 import './FaceDetect.css';
 
-const FaceDetect = ({ imageUrl, box }) => {
-  return (
+const FaceDetect = ({ imageUrl, box }) => (
     <div className="center ma">
       <div className="absolute mt2">
         <img id="inputimage" alt="" src={imageUrl} width="500px" height="auto" />
       <div
         className="bounding-box"
-        
+
         style={{
           top: box.topRow,
           right: box.rightCol,
@@ -19,7 +18,6 @@ const FaceDetect = ({ imageUrl, box }) => {
       </div>
       </div>
     </div>
-  );
-};
+);
 
 export default FaceDetect;
