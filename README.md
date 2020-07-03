@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-* This application utilizes the Clarifai API to detect a face within a photo and then frame that photo in a white box. Version 1 is limited to 1 face per photo.
+* This application utilizes the Clarifai API to detect a face within a photo and then frame that photo in a white box. Version 1 is limited to 1 face detected per photo.
 
 ## Screenshots
 
