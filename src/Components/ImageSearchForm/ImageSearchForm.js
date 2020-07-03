@@ -1,8 +1,7 @@
 import React from 'react';
 import './ImageSearchForm.css';
 
-const ImageSearchForm = ({ onInputChange, onSubmit }) => {
-  return (
+const ImageSearchForm = ({ onInputChange, onSubmit }) => (
     <div className="ma5 mto">
       <div className="center">
         <div className="form center pa4 br3 shadow-5">
@@ -20,7 +19,6 @@ const ImageSearchForm = ({ onInputChange, onSubmit }) => {
         </div>
       </div>
   </div>
-  );
-};
+);
 
 export default ImageSearchForm;
