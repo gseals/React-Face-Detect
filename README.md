@@ -2,9 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # React Face Detect version 1.0
 
+## Description
+
+* This application utilizes the [Clarifai API](https://www.clarifai.com/) to detect a face within a photo and then frame that face in a white box. Version 1 is limited to 1 face detected per photo.
+
 ## Demo Link
 
-* [Check out the project](https://gseals.github.io/React-Face-Detect/)
+* [Check out the Project](https://gseals.github.io/React-Face-Detect/)
 
 ## Technologies Used
 
@@ -16,10 +20,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [ReactDOM 16.13.1](https://www.npmjs.com/package/react-dom)
 * [ReactJS 16.13.1](https://reactjs.org/docs/create-a-new-react-app.html)
 * [Tachyons 4.12.0](https://tachyons.io/)
-
-## Description
-
-* This application utilizes the [Clarifai API](https://www.clarifai.com/) to detect a face within a photo and then frame that face in a white box. Version 1 is limited to 1 face detected per photo.
 
 ## Screenshots
 
