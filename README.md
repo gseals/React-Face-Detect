@@ -24,14 +24,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Screenshots
 
 ### Landing Page
-![Landing Page](https://storage.needpix.com/rsynced_images/coming-soon-2579123_1280.jpg)
+![Landing Page](https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Landing%20Page.png)
 
 ### Live Action Face Detected
-![Live Action Face Detected](https://storage.needpix.com/rsynced_images/coming-soon-2579123_1280.jpg)
+![Live Action Face Detected](https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Live%20Action%20Face%20Detected.png)
 [Image Source](https://www.indiewire.com/wp-content/uploads/2019/05/chris-evans-1.jpg)
 
 ### Cartoon Face Detected
-![Cartoon Face Detected](https://storage.needpix.com/rsynced_images/coming-soon-2579123_1280.jpg)
+![Cartoon Face Detected](https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Cartoon%20Face%20Detected.png)
 [Image Source](https://www.netclipart.com/pp/m/439-4392486_clip-art-captain-america-images-captain-america-cartoon.png)
 
 ## How to Run
