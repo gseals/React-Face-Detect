@@ -9,7 +9,7 @@ const ImageSearchForm = ({ onInputChange, onSubmit }) => (
             className="f4 pa2 w-70 center"
             type="text"
             onChange={onInputChange}
-            placeholder="Paste url here"
+            placeholder="Paste image url here"
           />
           <button
             className="w-30 grow f4 link ph3 pv2 dib white bg-blue"
